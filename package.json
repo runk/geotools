@@ -1,0 +1,12 @@
+{
+    "name": "node-geo",
+    "version": "0.0.1",
+    "description": "Node GEO lookup module",
+    "keywords": ["geo", "geobase", "geo lookup", "ip base", "ip to city", "ip to country"],
+    "author": [
+        "Shirokov Dmitry <deadrunk@gmail.com>"
+    ],
+    "dependencies": {
+        "mocha": "1.3.2"
+    }
+}
