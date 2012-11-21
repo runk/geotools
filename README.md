@@ -1,4 +1,5 @@
-node-geo
+
+geotools
 ========
 
 Simple and fast IP to Country/Region lookup module for nodejs. **Pull Requests are welcome!**
