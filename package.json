@@ -1,12 +1,10 @@
 {
-    "name": "geo",
-    "version": "0.0.1",
-    "description": "Node GEO lookup module",
+    "name": "geotools",
+    "version": "0.0.3",
+    "description": "IP to Country/Region lookup module",
     "keywords": ["geo", "geobase", "geo lookup", "ip base", "geocode"],
     "author": [
         "Shirokov Dmitry <deadrunk@gmail.com>"
     ],
-    "dependencies": {
-        "mocha": "1.3.2"
-    }
+    "dependencies": {}
 }

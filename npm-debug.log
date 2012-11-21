@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/runk/.nvm/v0.8.2/bin/node',
+1 verbose cli   '/Users/runk/.nvm/v0.8.2/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   'node-geo/' ]
+2 info using npm@1.1.36
+3 info using node@v0.8.2
+4 verbose config file /Users/runk/.npmrc
+5 verbose config file /Users/runk/.nvm/v0.8.2/etc/npmrc
+6 verbose config file /Users/runk/.nvm/v0.8.2/lib/node_modules/npm/npmrc
+7 verbose publish [ 'node-geo/' ]
+8 verbose read json /Users/runk/projects/github/node-geo/node-geo/package.json
+9 verbose cache add [ 'node-geo/', null ]
+10 silly cache add name=undefined spec="node-geo/" args=["node-geo/",null]
+11 verbose parsed url { pathname: 'node-geo/', path: 'node-geo/', href: 'node-geo/' }
+12 silly lockFile 67f998e9-node-geo node-geo/
+13 verbose lock node-geo/ /Users/runk/.npm/67f998e9-node-geo.lock
+14 silly lockFile 67f998e9-node-geo node-geo/
+15 error addLocal Could not install node-geo/
+16 error Error: ENOENT, stat 'node-geo/'
+16 error  { [Error: ENOENT, stat 'node-geo/'] errno: 34, code: 'ENOENT', path: 'node-geo/' }
+17 error You may report this log at:
+17 error     <http://github.com/isaacs/npm/issues>
+17 error or email it to:
+17 error     <npm-@googlegroups.com>
+18 error System Darwin 11.4.2
+19 error command "/Users/runk/.nvm/v0.8.2/bin/node" "/Users/runk/.nvm/v0.8.2/bin/npm" "publish" "node-geo/"
+20 error cwd /Users/runk/projects/github/node-geo
+21 error node -v v0.8.2
+22 error npm -v 1.1.36
+23 error path node-geo/
+24 error code ENOENT
+25 error message ENOENT, stat 'node-geo/'
+26 error errno 34
+27 error 34 errno
+28 verbose exit [ 34, true ]
