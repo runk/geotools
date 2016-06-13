@@ -10,10 +10,26 @@ describe("geo#ip2long", function() {
 });
 
 describe("geo#lookup", function() {
-    it("should find country and region", function() {
+    it("should find country and region #1", function() {
         var result = geo.lookup("87.229.134.24");
         assert.equal(result.country, "RU");
         assert.equal(result.region, 1056);
+        assert.equal(result.city, "Березовский");
+        assert.equal(result.regionName, "Свердловская область");
+        assert.equal(result.district, "Уральский федеральный округ");
+        assert.equal(result.lat, "56.912811");
+        assert.equal(result.lon, "60.804699");
+    });
+
+    it("should find country and region #2", function() {
+        var result = geo.lookup("93.120.167.236");
+        assert.equal(result.country, "RU");
+        assert.equal(result.region, 1956);
+        assert.equal(result.city, "Нижний Новгород");
+        assert.equal(result.regionName, "Нижегородская область");
+        assert.equal(result.district, "Приволжский федеральный округ");
+        assert.equal(result.lat, "56.329918");
+        assert.equal(result.lon, "44.009193");
     });
 
     it("should return null for unknown IP", function() {
