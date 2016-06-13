@@ -18,7 +18,17 @@ Also it could be extended with another geo data.
 
 	var geo = require('geotools');
 	var res = geo.lookup("87.229.134.24");
-	// output is { country: 'RU', region: 1056 }
+	/*
+     *  output is: {
+     *      country: 'RU',
+     *      region: 1056,
+     *      city: 'Березовский',
+     *      regionName: 'Свердловская область',
+     *      district: 'Уральский федеральный округ',
+     *      lat: '56.912811',
+     *      lon: '60.804699'
+     *  }
+	 */
 
 ## Speed / Benchmark
 
