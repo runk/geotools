@@ -1,6 +1,6 @@
 {
     "name": "geotools",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/runk/geotools",
     "description": "IP to Country/Region lookup module",
     "keywords": ["geo", "geobase", "geo lookup", "ip base", "geocode"],

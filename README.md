@@ -26,7 +26,8 @@ Also it could be extended with another geo data.
      *      regionName: 'Свердловская область',
      *      district: 'Уральский федеральный округ',
      *      lat: '56.912811',
-     *      lon: '60.804699'
+     *      lon: '60.804699',
+     *      utcOffset: '+05:00'
      *  }
 	 */
 
