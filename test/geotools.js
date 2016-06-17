@@ -19,6 +19,7 @@ describe("geo#lookup", function() {
         assert.equal(result.district, "Уральский федеральный округ");
         assert.equal(result.lat, "56.912811");
         assert.equal(result.lon, "60.804699");
+        assert.equal(result.utcOffset, "+05:00");
     });
 
     it("should find country and region #2", function() {
@@ -30,6 +31,7 @@ describe("geo#lookup", function() {
         assert.equal(result.district, "Приволжский федеральный округ");
         assert.equal(result.lat, "56.329918");
         assert.equal(result.lon, "44.009193");
+        assert.equal(result.utcOffset, "+03:00");
     });
 
     it("should return null for unknown IP", function() {
